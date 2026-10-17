@@ -21,3 +21,7 @@ This repository is part of my academic curriculum. It serves as a sandbox for le
 ## How to Run
 
 1. Clone the repository:
+git clone https://github.com/BREAD-BANANA/python-basics-25BCON1353.git
+cd python-basics-25BCON1353
+
+2. Run the factorial program:
