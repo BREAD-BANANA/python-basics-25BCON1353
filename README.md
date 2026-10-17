@@ -1,19 +1,23 @@
-# GitHub Learning & Testing Repository 🚀
+# GitHub Learning & Testing Repository
 
 ## About This Repository
-This repository is created as part of my academic curriculum. Its primary purpose is to serve as a sandbox for learning, practicing, and testing version control concepts using Git and GitHub. 
 
-Currently, this repository is **private** while I work through my coursework and foundational programming exercises.
+This repository is part of my academic curriculum. It serves as a sandbox for learning, practising, and testing version control concepts using Git and GitHub.
 
-## 📂 Repository Contents
-This project contains basic programming scripts used for practice. 
+## Repository Contents
 
-**Current Files:**
-* `factorial.py` - A simple Python script designed to calculate and output the factorial of a given number.
+| File | Language | Description |
+|------|----------|-------------|
+| `factorial.py` | Python | Asks the user for a number and prints its factorial. |
+| `fibonacci` | C (source code, no file extension) | Prints the first 10 numbers of the Fibonacci series. Note: it is missing `#include <stdio.h>` and has no `.c` extension, so it will not compile as-is. |
+| `README.md` | Markdown | This file. |
 
-## 🚀 How to Run
-To run the Python programs in this repository, ensure you have [Python](https://www.python.org/downloads/) installed on your system.
+## Requirements
 
-1. Clone the repository to your local machine:
-   ```bash
-   git clone <your-repository-url>
+- [Python 3](https://www.python.org/downloads/) to run `factorial.py`
+- A C compiler (e.g. GCC) would be needed for `fibonacci`, after the fixes noted above
+- No third-party libraries are required
+
+## How to Run
+
+1. Clone the repository:
