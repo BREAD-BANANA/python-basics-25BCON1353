@@ -18,10 +18,35 @@ This repository is part of my academic curriculum. It serves as a sandbox for le
 - A C compiler (e.g. GCC) would be needed for `fibonacci`, after the fixes noted above
 - No third-party libraries are required
 
-## How to Run
+## 🚀 How to Run
 
-1. Clone the repository:
-git clone https://github.com/BREAD-BANANA/python-basics-25BCON1353.git
-cd python-basics-25BCON1353
+To run the Python programs in this repository, ensure you have [Python](https://www.python.org/downloads/) installed on your system.
 
-2. Run the programs.
+1. Clone the repository to your local machine:
+
+   ```
+   git clone https://github.com/BREAD-BANANA/python-basics-25BCON1353.git
+   cd python-basics-25BCON1353
+   ```
+
+2. Run a script:
+
+   ```
+   python script.py
+   ```
+
+   Expected output:
+
+   ```
+   Total is 6
+   Average is 2.0
+   Hello, Sam
+   ```
+
+## 🧪 Running the Tests
+
+Tests use Python's built-in `unittest`, so nothing extra needs to be installed:
+
+```
+python -m unittest -v test_script
+```
