@@ -2,51 +2,43 @@
 
 ## About This Repository
 
-This repository is part of my academic curriculum. It serves as a sandbox for learning, practising, and testing version control concepts using Git and GitHub.
+This repository is part of my academic curriculum. It serves as a sandbox for learning, practising, and testing programming concepts and version control with Git and GitHub.
 
 ## Repository Contents
 
 | File | Language | Description |
 |------|----------|-------------|
 | `factorial.py` | Python | Asks the user for a number and prints its factorial. |
-| `fibonacci` | C (source code, no file extension) | Prints the first 10 numbers of the Fibonacci series. Note: it is missing `#include <stdio.h>` and has no `.c` extension, so it will not compile as-is. |
+| `number_guessing_game.py` | Python | A command-line guessing game with input validation and a quit option. |
+| `code with 3 errors (corrected)` | Python | A corrected example that calculates a total and average and defines a greeting function. |
+| `fibonacci.c` | C | Prints the first 10 numbers of the Fibonacci series. |
 | `README.md` | Markdown | This file. |
 
 ## Requirements
 
-- [Python 3](https://www.python.org/downloads/) to run `factorial.py`
-- A C compiler (e.g. GCC) would be needed for `fibonacci`, after the fixes noted above
+- [Python 3](https://www.python.org/downloads/) to run the Python programs
+- A C compiler (such as GCC) to compile `fibonacci.c`
 - No third-party libraries are required
 
-## 🚀 How to Run
+## How to Run
 
-To run the Python programs in this repository, ensure you have [Python](https://www.python.org/downloads/) installed on your system.
+Clone the repository and open a terminal in its directory:
 
-1. Clone the repository to your local machine:
-
-   ```
-   git clone https://github.com/BREAD-BANANA/python-basics-25BCON1353.git
-   cd python-basics-25BCON1353
-   ```
-
-2. Run a script:
-
-   ```
-   python script.py
-   ```
-
-   Expected output:
-
-   ```
-   Total is 6
-   Average is 2.0
-   Hello, Sam
-   ```
-
-## 🧪 Running the Tests
-
-Tests use Python's built-in `unittest`, so nothing extra needs to be installed:
-
+```bash
+git clone https://github.com/BREAD-BANANA/python-basics-25BCON1353.git
+cd python-basics-25BCON1353
 ```
-python -m unittest -v test_script
+
+Run the factorial program:
+
+```bash
+python factorial.py
 ```
+
+Start the number guessing game:
+
+```bash
+python number_guessing_game.py
+```
+
+The game chooses a number from 1 to 100. Enter guesses to get higher-or-lower hints, or enter `q` to quit.
